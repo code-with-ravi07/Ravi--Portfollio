@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* HERO */
+.hero {
+  background: #0077cc;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* SOCIAL BUTTONS */
+.social-buttons {
+  margin-top: 20px;
+}
+
+.social-buttons img {
+  width: 45px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social-buttons img:hover {
+  transform: scale(1.2);
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px;
+  text-align: center;
+  background: white;
+  margin: 10px;
+}
+
+/* SKILLS */
+.skill-box span {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #eee;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
